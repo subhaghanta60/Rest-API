@@ -1,13 +1,24 @@
 const Product = require("../model/products");
 const getAllproducts = async(req,res) => {
 
-    const mydata= await Product.find({});
+    const { company } =req.query;
+    const queryObject ={};
+
+    if(company){
+        queryObject.company= company;
+       
+    }
+
+    const mydata= await Product.find(queryObject);
 
     res.status(200).json({mydata});
 }
 
 const getAllproductTesting = async(req,res) => {
-    res.status(200).json({msg:"I am Get All Products Testing"});
+
+    const mydata= await Product.find({});
+
+    res.status(200).json({mydata});
 }
 
 

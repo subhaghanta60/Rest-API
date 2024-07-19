@@ -2,21 +2,21 @@
     {
         "name": "Iphone",
         "price": 154,
-        "features":true,
+        "featured":true,
         "company": "apple"
 
     },
     {
         "name": "Watches",
         "price": 124,
-        "features":true,
+        "featured":true,
         "company": "Ratio"
 
     },
     {
         "name": "Watchstrap",
         "price": 142,
-        "features":true,
+        "featured":true,
         "company": "Ratio"
 
     },
@@ -29,7 +29,7 @@
     {
         "name": "HairOil",
         "price": 145,
-        "features":false,
+        "featured":false,
         "company": "Ratio"
 
     }
