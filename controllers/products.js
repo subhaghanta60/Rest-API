@@ -1,6 +1,9 @@
+const Product = require("../model/products");
 const getAllproducts = async(req,res) => {
 
-    res.status(200).json({msg:"I am Get All Products"});
+    const mydata= await Product.find({});
+
+    res.status(200).json({mydata});
 }
 
 const getAllproductTesting = async(req,res) => {

@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Iphone",
+        "price": 154,
+        "features":true,
+        "company": "apple"
+
+    },
+    {
+        "name": "Watches",
+        "price": 124,
+        "features":true,
+        "company": "Ratio"
+
+    },
+    {
+        "name": "Watchstrap",
+        "price": 142,
+        "features":true,
+        "company": "Ratio"
+
+    },
+    {
+        "name": "Pendent",
+        "price": 32,
+        "company": "Ratio"
+
+    },
+    {
+        "name": "HairOil",
+        "price": 145,
+        "features":false,
+        "company": "Ratio"
+
+    }
+]
